@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="weatherApp" />
+        <module name="registration" />
+        <module name="ConfigServer" />
+        <module name="ServiceRegistry" />
+        <module name="wishlist" />
+        <module name="authentication" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="authentication" target="17" />
+      <module name="ConfigServer" target="17" />
+      <module name="registration" target="17" />
+      <module name="ServiceRegistry" target="17" />
+      <module name="weatherApp" target="17" />
+      <module name="wishlist" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConfigServer" options="-parameters" />
+      <module name="ServiceRegistry" options="-parameters" />
+      <module name="authentication" options="-parameters" />
+      <module name="registration" options="-parameters" />
+      <module name="weatherApp" options="-parameters" />
+      <module name="wishlist" options="-parameters" />
+    </option>
+  </component>
+</project>
